@@ -1,0 +1,11 @@
+{
+ "backend": "spacy",
+ "use_context": true,
+ "C": 50,
+ "val_macro_f1": 0.8404,
+ "test_accuracy": 0.9111,
+ "test_macro_f1": 0.839,
+ "n_train": 4823,
+ "n_val": 593,
+ "n_test": 641
+}

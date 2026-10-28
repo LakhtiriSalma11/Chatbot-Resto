@@ -1,0 +1,10 @@
+tester_id,scenario_id,task_completed,n_turns,fluency,coherence,efficiency,comments
+T1,libre,1,0,3,4,5,
+AHMED,libre,1,0,4,3,4,
+T3,S1,1,0,3,4,5,Le bot repose la question de réservation
+T4,libre,1,8,4,5,4,
+T6,libre,1,5,4,4,4,
+SS,libre,1,5,4,3,4,
+h,libre,1,6,3,4,4,
+T8,libre,1,6,4,4,3,
+T7,libre,1,5,4,4,4,

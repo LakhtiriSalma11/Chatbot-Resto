@@ -1,0 +1,594 @@
+dialogue_id,utterance,context,state_before,intent
+SNG01777.json,hello can i find a place that serves chinese food and has expensive price range for my family,,0000000,inform
+SNG01777.json,i want a restuarant that i can book a table for four people on monday 1300hrs,I've found several restaurants meeting your criteria. Is there a specific area of town you're looking for?,1010000,book
+SNG01777.json,"Yes, please. for 4 people at 13:00 on monday.",I have found Yu Garden in the East. Would you like me to go ahead and book that?,1010111,book
+SNG01777.json,"How about Tuesday, same time.","I was unable to book there, shall i try another time or place?",1011111,book
+SNG01777.json,"No, that's all I need. Thank you!",Your table is booked for Tuesday and will be reserved for 15 minutes. Your reference number is 47ELJDK0. Anything else?,1011111,bye
+SNG0494.json,I'd like a restuarant in the north with expensive food.,,0000000,inform
+SNG0494.json,"Surprise me, I just want something pricey to impress my friends. It'll be a party of seven.","There are five places, which type of food do you prefer?",0110000,book
+SNG0494.json,How about Monday at 19:15.,"I found five restaurants, what day and time would you like to go?",0110100,book
+SNG0494.json,Thank you so much. That is all I will be needing today. Have a nice evening.,Okay. I have booked you at Saigon City that is quite elegant and serves Asian cuisine. Your reference number is J8IGNS09.,0110111,book
+SNG0494.json,"I don't think I need it, but thanks for asking. Have a good day.","Thank you, and would you like the address for the restaurant?",0111111,bye
+SNG01527.json,I am looking for a place to dine. The restaurant should be in the expensive price range and should serve british food.,,0000000,inform
+SNG01527.json,That sounds interesting. What area is the restaurant in?,How about graffiti? I've heard great things.,1010000,request_info
+SNG01527.json,"Thanks. What is the postcode, address, and area?",It is in the west area.,1011000,request_info
+SNG01527.json,No thanks. I just needed some info on it. That's all now.,"Graffiti is in the west area, address is Hotel Felix Whitehouse Lane Huntingdon Road, postcode cb30lx. Do you want reservations?",1011000,bye
+SNG0711.json,"I'm in the mood for swedish food, but I want something in the centre of town.",,0000000,inform
+SNG0711.json,What about Chinese?,"I'm sorry, there are no Swedish restaurants in the area. Do you have another cuisine you would like to try?",1100000,inform
+SNG0711.json,Could you recommend one?,I have 10 chinese restaurants in the centre area. What price range would you like?,1100000,other
+SNG0711.json,Yes please! I'd like a table for 5 on Monday at 15:15.,Charlie Chan is amazing and cheap! Would you like me to book it for you?,1100000,book
+SNG0711.json,That's all. Thank you!,Your booking was successful and the reference number is U4UC246K. Is there anything else I can help with today?,1101111,bye
+SNG01698.json,I am looking for a restaurant that is in the centre of town and serves light bites food.,,0000000,inform
+SNG01698.json,Do you have any expensive restaurants?,we dont have any restaurant like that.,1100000,inform
+SNG01698.json,"Could you try Chinese food, instead?",No expensive restaurant,1110000,inform
+SNG01698.json,That sounds good. Can you book a table for 5 people at 11:15 on wednesday please?,I found 4 different expensive Chinese restaurants that you could try. How does HK Fusion sound to you?,1110000,book
+SNG01698.json,"Yes, how about 10:15 instead. I also need the reference number.","I'm sorry I am not able to book for that day/time, would you like to try another time or different restaurant?",1110111,book
+SNG01698.json,Thank you for your help.,I was able to book it for 10:15. You reference number is 7HQZ1TD6.,1111111,bye
+SNG01698.json,No that was all. Thank you,Is there anything else I can help you with today?,1111111,bye
+SNG0670.json,I need a restaurant. Something expensive and italian.,,0000000,inform
+SNG0670.json,"I would like to go to the centre, please.","I was able to get a couple of options for you, is there a certain area you would like to go to?",1010000,inform
+SNG0670.json,"Okay, that sounds good. I need a table for 7 at 11:30 on Thursday.",How about stazione restaurant and coffee bar?,1110000,book
+SNG0670.json,"Okay, will you try 10:30 instead?",Booking was unfortunately unsuccessful. Let's try another day or time slot.,1110111,book
+SNG0670.json,"That's all, thanks. Goodbye.",You are booked for 10:30. Your reference number is 4H1DRIF8. Is there anything else I can assist you with?,1111111,bye
+SNG0715.json,Is there an expensive African restaurant in town.,,0000000,inform
+SNG0715.json,"Excellent! I don't need a table right now, but if you could give me the address and phone number, that would be great.","Yes, The Bedouin in the city centre is a good, expensive restaurant.",1010000,request_info
+SNG0715.json,No thanks. That would be all for today. Have a nice day.,It is located at 100 Mill Road City Centre and the phone number is 01223367660. Is there anything else I can help you with?,1111000,bye
+SNG0539.json,"Yes, I hope so. Are there any Chinese restaurants toward the east end of town?",,0000000,inform
+SNG0539.json,Great can you book a table for 1 at 19:30 on monday?,"Yes, there's just one: Yu Garden!",1100000,book
+SNG0539.json,I think that takes care of everything. Thanks!,Booking was successful. The table will be reserved for 15 minutes. Reference number is: 5MR8KO1D. Is there anything else I can help with?,1101111,bye
+SNG01686.json,I am looking for a place to dine. The restaurant should be in the expensive price range and should serve italian food,,0000000,inform
+SNG01686.json,"No, I just realized I'll be in the south area. Are there any that meet my criteria in the south?",I have the cafe uno in the centre of town. Would that work?,1010000,inform
+SNG01686.json,Yes could you book me a table for two Sunday at 11:15?,"Yes, Frankie and Bennys is in the south and meets your criteria. Would you like me to make a reservation?",1110000,book
+SNG01686.json,Thank you so much for all of your help. Have a great day.,Booking was successful. The table will be reserved for 15 minutes. Reference number is: ZYQX1TYK.,1111111,bye
+SNG0689.json,Are there any restaurants that serve proper British food in town?,,0000000,inform
+SNG0689.json,"West, if possible.",Oh yes quite a few. Which part of town will you be dining in?,1000000,inform
+SNG0689.json,"Will you give me the phone number, address, and postcode for Graffiti, please?","We have three: Graffiti, Saint John's Chop House, and Traveller's Rest.",1100000,request_info
+SNG0689.json,No Thank you. I think that will be everything today.,"Yes, the phone number is 01223277977. The address is Hotel Felix Whitehouse Lane Huntingdon Road, and the post code is cb30lx. Want to book?",1101000,bye
+SNG01683.json,I am looking for a restaurant. The restaurant should serve indian food and should be in the expensive price range,,0000000,inform
+SNG01683.json,"Awesome. Can I also get the area, post code, and phone number?",Curry Garden is a great restaurant that fulfills your wishes. It is located at 106 Regent Street City Centre.,1010000,request_info
+SNG01683.json,"Thanks, I just need the phone number so I can call them.","Yes, curry garden is located in the centre and the postcode is cb21dp.",1011000,request_info
+SNG01683.json,"Thanks, that's all. Good bye.",The phone number is 01223302330. Is there anything else I can help you with?,1011000,bye
+SNG0547.json,"I am looking for a high end Indian restaurant, are there any in town?",,0000000,inform
+SNG0547.json,The restaurant should be in the west.,There are 14 expensive Indian restaurants in Cambridge. Is there an area of town that you prefer?,1010000,inform
+SNG0547.json,Yes please for 1 person saturday at 19:15 please.,The Tandoori Palace sounds like just what you are looking for. Would you like a reservation?,1110000,book
+SNG0547.json,"Nope, that's all. Thank you for your help!","All right, I've made your reservation. The reference number is NGOQ9J96. Is there anything else I can help you with?",1111111,bye
+SNG0477.json,I need a cheap Spanish restaurant. Are there any around?,,0000000,inform
+SNG0477.json,I would like a restaurant in the centre.,"Yes, la raza is a restaurant serving spanish food in the cheap price range. It is located at 4 - 6 Rose Crescent. Would you like a reservation?",1010000,inform
+SNG0477.json,Great. can you book me a table for 7 on Tuesday at 11:45 and provide me with a reference number?,la raza is a cheap restaurant serving spanish food in the centre part of town. It's address is 4 - 6 Rose Crescent and it's post code is cb2311.,1110000,book
+SNG0477.json,"hey, do you know any restaurants near me in the city?","All right, I've made a reservation. Your reference number is OOG9KQ5V. What else can I do for you?",1111111,book
+SNG0477.json,"Never mind, I'm all set. I even have the reference number for my reservation. Thanks for your help - goodbye!","There a lot of restaurants in the city, what kind are you looking for?",1111111,book
+SNG0500.json,I'm trying to find a cheap Asian restaurant to have dinner at tonight. What kind of options are available for me?,,0000000,inform
+SNG0500.json,"Actually, can you suggest one of them. Can I get their contact info as well?","I have two places, how many people and what time?",1010000,inform
+SNG0500.json,"No, that's ok, I can take it from here. Thank you for all your help.","Sure, I would suggest the Dojo Noodle Bar at 40210 Millers Yard City Centre. You can reach them at 01223363471. I could reserve it for you.",1010000,bye
+SNG0600.json,I'm looking for a specific restaurant. It's called india house. Can you help with this?,,0000000,inform
+SNG0600.json,Yes for 4 people at 16:30 on a Saturday. I will need a reference number as well.,Sure can. India House is an expensive Indian restaurant in the west part of town. Would you like a reservation?,0001000,book
+SNG0600.json,"I think that takes care of everything, thanks!",I've made the reservation and the reference number is HD53UDCO. What else can I help you with?,0001111,bye
+SNG0600.json,Thank you. Have a great day!,"Oh, it was my pleasure. I'm here if you need anything else.",0001111,bye
+SNG0616.json,Yes I am looking for an expensive restaurant in the South of town.,,0000000,inform
+SNG0616.json,"Sorry, Actually I need an expensive restaurant in the north. the first on your list would be great.",I have many. Do you have a preference for type of food served?,0110000,inform
+SNG0616.json,"Sounds great, can you book a table for 5 at 18:00?",Sure how about Saigon City?,0110000,book
+SNG0616.json,"Actually, I won't be needing a reservation just yet. Could you verify the type of food Saigon City serves?","Alright, which day would you like the reservation to be on?",0111101,request_info
+SNG0616.json,"Yes, could I get the restuarant's phone number and postcode?",Saigon City serves asian oriental cuisine. Would you need anything other information or assistance?,0111101,request_info
+SNG0616.json,"No, that's it. You've been very helpful, thank you!",Certainly. The phone number is 01223356555 and the postcode is cb41nl. Anything else I can do for you?,0111101,bye
+SNG0746.json,I am looking for information on The Varsity restaurant.,,0000000,inform
+SNG0746.json,Could you book me a table for 2 at 20:00 on Tuesday evening?,The Varsity is a moderately priced restaurant offering international cuisine. Would you like any other information?,0001000,book
+SNG0746.json,"Thank you so much, that is all.",Ok! Your table for 2 at the Varsity Restaurant has been booked for Tuesday at 20:00. You reference number is: 1EB89A0F,0001111,bye
+WOZ20122.json,I want to find a restaurant in the centre part of town and serves british food.,,0000000,inform
+WOZ20122.json,I have no preference. can i please have the address and phone number of one of them?,There are several British restaurants. Do you have a price range in mind?,1100000,request_info
+WOZ20122.json,"Nope, that'll do it, thank you for your help.",Cotto is a british restaurant in the moderate price range and in the centre. Its address is 183 east road city centre and its phone number is 01223 302010. Is there anything else I can help you with?,1110000,bye
+WOZ20414.json,I need the address of a restaurant that serves gastropub food.,,0000000,request_info
+WOZ20414.json,Thank you.,The cow pizza kitchen and bar serves Gastropub food. Their address is Corn Exchange Street in the centre area.,1000000,bye
+WOZ20262.json,I am looking for a moderately priced restaurant in the north part of town. I would also like the address and phone number.,,0000000,request_info
+WOZ20262.json,"Yes, I would like the address and phone number for each.",There is an Indian and a Chinese restaurant that are both moderately priced in the north area. Would you like the address and phone for one of those?,0110000,request_info
+WOZ20262.json,Thank You,"The Golden Wok is located at 191 Histon Road Chesterton, and there address is 01223 350688. The Nirala is located at 7 Milton Road Chesterton, and their phone number is 01223 360966. Is there anything else I can help you with?",0110000,inform
+WOZ20375.json,What is good in the south part of town,,0000000,inform
+WOZ20375.json,I don't care what type of food it is.,What type of food are you interested in?,0100000,inform
+WOZ20375.json,"Yes, under $25.00 per entree.",There are nine restaurants in the south area. Is there a price range you would like in particular?,1100000,other
+WOZ20375.json,"cheap, please","Would you like the cheap, moderate, or expensive price range?",1100000,inform
+WOZ20445.json,I am looking for a restaurant with vegetarian food.,,0000000,inform
+WOZ20445.json,Any area of town would be fine.,What area of town are you looking for?,1000000,inform
+WOZ20445.json,How about european food?,There are no restaurants serving vegetarian food.,1100000,inform
+WOZ20445.json,"European, please.",Would you prefer European or modern European food?,1100000,other
+WOZ20445.json,No I do not,There are ten results. Do you have a price range preference?,1100000,inform
+WOZ20445.json,Can I have the address and phone number?,Cambridge Lodge Restaurant serves European food and is the expensive price range.,1110000,request_info
+WOZ20445.json,"Thank you, goodbye","The address is Cambridge Lodge Hotel 139 Huntingdon Road City Centre, postcode C.B 3, 0 d.Q, phone is 01223 355166",1111000,bye
+WOZ20186.json,I would like a restaurant in the west part of town,,0000000,inform
+WOZ20186.json,I don't care.,"There are several restaurants in the west part of town. Would you like something in the expensive, moderate or cheap price range?",0100000,inform
+WOZ20186.json,canapes food,What type of food would you like?,0110000,inform
+WOZ20186.json,How about thai food instead?,I am sorry there are no restaurants with canapes. Is there some other type of food you would like?,1110000,inform
+WOZ20186.json,"What is the address, phone number, and price range?","Of course, how about sala thong? It is a thai restraunt in the west part of town.",1110000,request_info
+WOZ20186.json,Thank you goodbye.,Sala Thong is quite expensive. The address is 35 Newnham Road Newnham and phone number is 01223 323178. Can I help you with anything else?,1111000,bye
+MUL0382.json,Hello I am looking for a restaurant that serves Italian food and I need it to be cheap.,,0000000,inform
+MUL0382.json,No there isn't.,There are 5 cheap Italian restaurants. Is there a particular area you're interested in?,1010000,other
+MUL0382.json,That sounds good can you please give me the address and phone number?,"How about something local, such as Zizzi Cambridge? It's located at the centre.",1010000,request_info
+MUL0382.json,Yes I need a table for two.,Sure thing! Zizzi Cambridge contact info: Phone: 01223365599 Postcode: cb21ab Address: 47-53 Regent Street. Would you like me to make a reservation there?,1010000,book
+MUL0382.json,I don't know.,What day and time would you like the booking for?,1010100,bye
+MUL0382.json,Sure that sounds good.,How about this Tuesday at 17:00? I can check if they have any available tables.,1010100,book
+MUL0382.json,Zizzi Cambridge please,I'm sorry could you confirm what restaurant you wanted to reserve a table for 2 at?,1010111,book
+WOZ20396.json,Hello. I want a cheap barbeque restaurant.,,0000000,inform
+WOZ20396.json,Are there any cheap indian restaurants?,There is not a restaurant matching your request. Would you like a different restaurant?,1010000,inform
+WOZ20396.json,I don't care.,There are four listings for the provided criteria. Do you prefer the centre or south area?,1010000,inform
+WOZ20396.json,yes please,Kohinoor is a cheap Indian restaurant in the centre of town. Would you like their address?,1110000,request_info
+WOZ20396.json,"Thank you, goodbye.",The address is 74 Mill Road City Centre.,1111000,bye
+WOZ20628.json,"Hello, I am looking for a moderately priced restaurant that serves gastropub food.",,0000000,inform
+WOZ20628.json,May I please have the phone number?,The Cow Pizza Kitchen and Bar serves Gastropub food and is in the moderate price range.,1010000,request_info
+WOZ20628.json,Thank You that's all,01223 308871 Will that be all?,1011000,bye
+SSNG0023.json,Can you find me an italian restaurant in the centre?,,0000000,inform
+SSNG0023.json,"I'm looking for something on the cheap side, please, although I'd like to get good value for the money.","Sure, there are 9 restaurants to choose from. Did you have a price range in mind?",1100000,inform
+SSNG0023.json,Any of them will be fine. As long as it's cheap. I need a table for 4 on monday at 12:15 please.,"There are three Italian restaurants in the center in the cheap range. They are pizza hut city centre, ask, and zizzi Cambridge. Which do you prefer?",1110000,other
+SSNG0023.json,"Yes, please book ask for 4 people at 12:15 on monday.",I would recommend ask as it is a nice place.,1110000,book
+SSNG0023.json,"Yes please, same price range as before.",I'm sorry but I couldn't book you there. How about another restaurant?,1110111,book
+SSNG0023.json,Okay thank you very much for your help.,Okay I was able to get you into the Zizzi Cambridge and your reference number is GI0FZMKL.,1111111,bye
+SSNG0023.json,Thank you. I will.,You are welcome. Enjoy your lunch.,1111111,bye
+SNG0723.json,I'm looking for a restaurant that serves kosher food in the west side.,,0000000,inform
+SNG0723.json,I was really hoping for Kosher.,"I'm sorry, we don't have any Kosher restaurants on the west side. Would you like to try a different cuisine type?",1100000,other
+SNG0723.json,How about an expensive Indian restaurant? I know there are many of those!,"Unfortunately, there are no Kosher restaurants anywhere in the city. Can I help you find something else?",1000000,inform
+SNG0723.json,"Sure. What's Cocum's address, phone number, and postcode?","We have 5 in the west side. Cocum is very popular, would you like to try there?",1110000,request_info
+SNG0723.json,"Great, thank you! That is all I need today.","Here is the information you've requested for Cocum: 71 Castle Street City Centre, 01223366668, cb30ah",1110000,bye
+SSNG0094.json,I am looking for Golden House restaurant.,,0000000,inform
+SSNG0094.json,"Great. Would you book a table for 1 on Sunday at 12:00, please?",Golden house serves cheap Chinese food in the centre of town.,0001000,book
+SSNG0094.json,"Sure, can you find me something close-by that has comparable prices? And can I get the reference number please?",I am sorry but the Golden House was not available on Sunday at 12:00. Can I find another restaurant for you perhaps?,0001111,book
+SSNG0094.json,"No, that is all! Thanks.","I was able to get you in at Charlie Chan, another inexpensive Chinese restaurant in the centre. Reference number P4K1B3X6. Can I help you with anything else?",0110111,book
+WOZ20121.json,I am looking for a restaurant in the expensive price range that serves Belgian food.,,0000000,inform
+WOZ20121.json,"Yes, is there any expensive European eateries?","I have nothing available meeting your request, would you like to try a different price range or another type of cuisine?",1010000,inform
+WOZ20121.json,What is the address of the restaurant?,"Yes, there are 4 expensive restaurants serving european food. Which area would you like?",1010000,request_info
+WOZ20121.json,What is its phone number?,Michaelhouse Cafe is at St. Michael's Church Trinity Street City Centre. How does that sound?,1010000,request_info
+WOZ20121.json,"Okay, thanks. And what area is it in please?",The phone number is 01223 309147.,1011000,request_info
+WOZ20121.json,"That's good, thanks.",It is in the centre part of town.,1011000,bye
+WOZ20121.json,"That's all. Thank you, goodbye!",Would you like anything else?,1011000,bye
+WOZ20207.json,I'm looking for hungarian food in the Centre,,0000000,inform
+WOZ20207.json,How about turkish food?,"I'm sorry, there are no Hungarian restaurants listed in the centre part of town. Would you like to try something else?",1100000,inform
+WOZ20207.json,No preference about price range.,There are three restaurants that serve Turkish food in the center of town. What price range would you like?,1100000,request_info
+WOZ20207.json,What is Anatolia's address?,How about Anatolia? It serves Turkish food and it is in the centre of town.,1110000,request_info
+WOZ20207.json,What's the price range?,Anatolia is located at 30 bridge street city centre. Is there anything else I can help you with?,1111000,request_info
+WOZ20207.json,Thank you goodbye.,Anatolia is in the moderate price range.,1111000,bye
+WOZ20661.json,I would like a moderately priced restaurant in the north part of town,,0000000,inform
+WOZ20661.json,What is the address of anyone of them?,"There are two moderately priced restaurants in the north, an Italian restaurant and a Chinese restaurant. Would you like more information?",0110000,request_info
+WOZ20661.json,Thank You,The Golden Wok is a moderately priced Chinese restaurant in the north located at 191 Histon Road Chesterton. Can I be of further assistance?,0110000,bye
+WOZ20661.json,Thank you goodbye.,"You're welcome, enjoy your food.",0110000,bye
+WOZ20285.json,I would like an expensive restaurant in the south of town.,,0000000,inform
+WOZ20285.json,I don't care.,There are five restaurants matching your description. Would you like a specific food type or would you like all their names?,0110000,inform
+WOZ20285.json,can you tell me what type of food they serve and give me the phone number?,Frankie and Bennys is an expensive Italian restaurant in the south part of town.,1110000,request_info
+PMUL0991.json,"I need a restaurant. I've heard Nandos recommended, could you give me more information about it?",,0000000,inform
+PMUL0991.json,What is the phone number?,"Nandos, a portugese restaurant, is located at Cambridge Leisure Park Clifton Way",0001000,other
+PMUL0991.json,No that takes care of it,The phone number for nandos south is 01223327908. Can I help you with anything else today?,0001000,other
+WOZ20625.json,I want a restaurant on the west end of town.,,0000000,inform
+WOZ20625.json,I don't care.,OK. Are you looking for any particular type of food?,0100000,inform
+WOZ20625.json,A moderately priced restaurant would be good.,Are you looking for a particular price range?,1100000,inform
+WOZ20625.json,No preference,Do you have a cuisine preference?,1110000,other
+WOZ20625.json,Can I please have their address and phone number?,How about Prezzo? They serve moderately priced Italian food on the west side of town.,1110000,request_info
+WOZ20625.json,"Thank you, goodbye","prezzo's address is 21 - 24 Northampton Road, their phone number is 01799 521260.",1111000,bye
+WOZ20465.json,I'm looking for a moderately priced restaurant.,,0000000,inform
+WOZ20465.json,chinese food,What type of food are you looking for?,0010000,inform
+WOZ20465.json,Could you give me the address and phone number of the one in the north?,"I'm showing 4 restaurants matching that description, 3 in the city centre and 1 in the north. Do you have a preference for area?",1010000,request_info
+WOZ20465.json,"Thank you, goodbye.","golden wok is in the north area, its phone number is 01223 350688. Their address is 191 Histon Road Chesterton",1110000,bye
+SNG0594.json,Can you help me find a cheap place to eat?,,0000000,inform
+SNG0594.json,Indian would be good as long as it's in the center. I need to book a table for 2 people at 18:15 on a Sunday.,There are 22 restarants serving cheap food. What type of food would you like?,0010000,book
+SNG0594.json,"Yes, that would be fine.",The Gandhi has great food at an even better price! Should I book you a table here?,1110111,book
+SNG0594.json,Yes can you try Sunday at 17:30 please,Unfortunately there are no tables available for Sunday at 18:15. Would you like to try for a different day or time?,1110111,book
+SNG0594.json,do you have anything available for sunday?,"I'm sorry, but booking was unsuccessful. Could you try a different day or time?",1110111,book
+SNG0594.json,How about 17:15?,"No, could you try another day and time?",1110110,book
+SNG0594.json,Great. That'll be everything. Thank you!,I was able to book the table for you for your party of 2 on Sunday at 17:15. The reference number is Z16ZTXKY.,1111111,bye
+SNG1343.json,I'm looking for a place to dine. The restaurant should be in the centre and should serve mediterranean food.,,0000000,inform
+SNG1343.json,Sounds great! Can you help me book a reservation for 4 people on Sunday?,"The Gardenia restaurant is a great choice. It is not expensive, and meets your other criteria. The address is 2 Rose Crescent City Centre",1100000,book
+SNG1343.json,"16:15, please, thank you.",What time would you like the reservation to be for?,1100110,book
+SNG1343.json,No that is all. Thank you for the help.,"You are booked, with ref # WBB6XXRP. Anything else for you today?",1101111,bye
+WOZ20563.json,I am looking for a restaurant in the west part of town that is in the cheap price range.,,0000000,inform
+WOZ20563.json,I don't care. Any type of food will be fine.,There are two restaurants in the west part of town. What type of food are you interested in?,0110000,request_info
+WOZ20054.json,looking for barbeque food.,,0000000,inform
+WOZ20054.json,How about gastropub?,There is not a barbeque restaurant listed. May I have you find a different restaurant?,1000000,inform
+WOZ20054.json,What is the address and phone number?,There are four gastropub restaurants. I recommend the cow pizza kitchen and bar which is in the center and moderately priced.,1000000,request_info
+WOZ20054.json,"Thank you, goodbye.",Their address is Corn Exchange Street and their phone number is 01223 308871.,1001000,bye
+SNG01964.json,"I would like to book a popular, cheap restaurant.",,0000000,inform
+SNG01964.json,I'm sorry I need to find the information for Parkside Police Station.,Do you have a specific area in mind?,0010000,bye
+SNG01964.json,That was all. Thanks,"Sure, the telephone number is 01223358966, the address is Parkside, Cambridge and the postcode is CB11JG.",0010000,bye
+SNG01425.json,Is it possible to get any Greek food in the centre part of town?,,0000000,inform
+SNG01425.json,What about Chinese food?,"Sorry, I'm showing no results for Greek restaurants. Any other foods you'd like to have?",1000000,inform
+SNG01425.json,book a table for 8 people at 19:00 on wednesday.,Charlie Chan has some great reviews.,1000000,book
+SNG01425.json,"Thanks, that's all. Good bye.",Your booking was successful. The table will be reserved for 15 minutes. Reference number is: 1J6Y65LW.,1001111,bye
+WOZ20528.json,"Hello, I am looking for a restaurant on the south side of town that serves unusual food.",,0000000,inform
+WOZ20528.json,"Yes, how about indian food",Sorry but there is no resaurants that fit your request. do you want something different?,1100000,inform
+WOZ20528.json,What is the phone number?,I recommend taj tandoori. It is located in the south part of town.,1100000,request_info
+WOZ20528.json,"No that is all. Thank you, goodbye.",Taj Tandoori's phone number is 01223 412299. Is there anything else I can do for you?,1101000,bye
+SNG0478.json,I am looking to eat at a north restaurant in the expensive price range.,,0000000,inform
+SNG0478.json,"Surprise me, I just need the booking for 8 people Monday at 18:00. Please provide me with a reference number for this booking.",I have about 5 restaurants in that area. What kind of food would you like them to serve?,0110000,book
+SNG0478.json,Thank you so much! That's all I needed.,I can make a reservation at Saigon City for 8 people on Monday evening. The reference number is ECKX7YSF. Is there anything else I can do for you?,0110111,book
+SNG0478.json,No thank you. Have a great day!,You are very welcome. Would you like the address for the restaurant?,0111111,bye
+SNG0534.json,I am looking for a place serving Indian food in the west.,,0000000,inform
+SNG0534.json,"Yes, please book for 3 people at 13:15 on Monday. Include reference number, please.","The Tandoori Palace is an excellent choice, though it's a bit expensive. Would you like a table there?",1100000,book
+SNG0534.json,"No, that's all. Thanks! Bye!",You are all set for 13:15 Monday. Your reference number is 36NIKCYF. Can I help you with anything else?,1101111,bye
+WOZ20416.json,I am looking for a restaurant in the north part of town serving persian food.,,0000000,inform
+WOZ20416.json,Are there chinese restaurants in the north part of town?,There aren't any restaurants serving Persian food in the north part of town. Would you like me to look in a different area?,1100000,inform
+WOZ20416.json,Any price range would be fine.,There are three Chinese restaurants in the north part of town. What price range would you like?,1100000,inform
+WOZ20416.json,Please provide a phone number for one of the restaurants.,There are three restaurants that serve Chinese food in the north part of town. Would you like me to list them?,1110000,request_info
+WOZ20416.json,Can i have the phone number to one more restarant please?,"Golden Wok is a chinese restaurant located in the north part of town, and the phone number is 01223 350688.",1110000,request_info
+WOZ20416.json,"No, thank you. That is good. Good bye.",The Hakka also serves Chinese food and is on the north side of town. Their phone number is 01223 568988. Is there anything else I can help you with.,1110000,bye
+SSNG0164.json,I am looking for Japanese food in the south part of town.,,0000000,inform
+SSNG0164.json,"Try Mexican, then.",I am sorry. There is no japanese restaurant in the south area? Would you like to try another area or food type?,1100000,inform
+SSNG0164.json,"I'll take any type of cuisine, then. I just need a reservation for 6 at 13:15 on Saturday.","Unfortunately, I was not able to locate a Mexican restaurant in the south part of time. Would you like me to search for a different cuisine?",1100000,inform
+SSNG0164.json,"Mexican, please.","There are Japanese, Italian, Modern European, Portuguese, Indian, and Mexican. Which of these do you prefer?",1100000,book
+SSNG0164.json,Yes please. Are you sure there are no Japanese or Mexican places in the same price range open on the south side that day?,"The Mexican place is not open then, shall I try another place to dine?",1100111,inform
+SSNG0164.json,Okay I guess. Try booking there please.,No I am sorry. But there is a Portuguese restaurant if you are interested.,1100111,inform
+SSNG0164.json,Thank you for your help. Have a great day.,Great! I was able to book you there and your reference number is W2A8GHG8.,1100111,bye
+WOZ20459.json,Can you recommend a restaurant to me in the South part of town? I don't want to spend a lot of money.,,0000000,inform
+WOZ20459.json,The type of food doesn't matter to me.,What type of food are you looking for?,0110000,inform
+WOZ20459.json,Is there anything else?,"Two results with cheap price range in the south area of town. One is Nandos which is Portuguese food. The other is The Lucky Star, which is Chinese food.",1110000,other
+WOZ20459.json,What is the phone number?,The Lucky Star is a Chinese restaurant that is cheap and on the South side of town.,1110000,request_info
+WOZ20459.json,That will be good. Thank you!,The phone number of The Lucky Star is 01223 244277.,1111000,bye
+WOZ20515.json,I am looking for a moderate priced restaurant in the south part of town. Could you recommend me three restaurants?,,0000000,inform
+WOZ20515.json,Is there a third restaurant?,"Pizza Hut Cherry Hinton is a moderately priced Italian restaurant in the south of town, and Restaurant Alimentum is a moderately priced modern european restaurant in the south of town.",0110000,other
+WOZ20515.json,OK. Can you give me the address and phone number for Restaurant Alimentum?,There is not.,0110000,request_info
+WOZ20515.json,Thanks much! Bye!,Their phone number is 01223413000 and they are located at 152-154 Hills Road.,0111000,bye
+SNG0618.json,I am looking for an expensive restaurant in the centre,,0000000,inform
+SNG0618.json,The restaurant should serve japanese food.,There are 33 restaurants in the centre serving expensive food. What type of food would you like?,0110000,inform
+SNG0618.json,"I actually would just like their address, postcode and telephone number at this time.",Can I book Wamagama restaurant for you? It's a perfect fit.,1110000,request_info
+SNG0618.json,That is all I need. Thanks for all your help!,"Wagamama is located at 36 Saint Andrews Street, postcode cb23ar, phone 01223462354. Do you need any further assistance?",1110000,bye
+SNG0618.json,"Okay, I will. Thanks again. Bye!",I'm glad I could help. Have a great day and thanks for contacting Cambridge TownInfo centre!,1110000,bye
+WOZ20156.json,I would like an expensive restaurant that serves turkish food,,0000000,inform
+WOZ20156.json,how about a moderate one?,"I'm sorry, we don't have any expensive Turkish restaurants.",1010000,inform
+WOZ20156.json,yes. address and phone number for Anatolia.,"Anatolia and Efes Restaurant are both moderately priced Turkish restaurants, and both are in the centre of town. Would you like an address or phone number for one of them?",1010000,inform
+WOZ20156.json,What is the postcode?,"Anatolia is at 30 Bridge Street City Centre, and the phone number is 01223 362372. Can I get you any further information?",1011000,request_info
+WOZ20156.json,Thank you goodbye.,"The postcode is Anatolia is C.B 2, 1 U.J.",1011000,bye
+SSNG0090.json,I'm looking for a chinese food restaurant in the centre.,,0000000,inform
+SSNG0090.json,"No, I don't care. Can you recommend your favorite?","There are ten chinese restaurants in the centre area, do you have a preference for price range?",1100000,inform
+SSNG0090.json,Yes please check to see if there is booking for 2 people at 12:30 on sunday.,"I like the Lan Hong House. It's moderately prices, but good. Should I book a reservation?",1110000,book
+SSNG0090.json,"Yes, how about a different restaurant in the same area and price range?",I'm sorry there are no available bookings for that time. Would you like to try something else?,1111111,inform
+SNG0716.json,I'm looking for a place to dine that serves Vietnamese food in the East.,,0000000,inform
+SNG0716.json,"Yes, I am willing to go to a different area for Vietnamese food.","Sorry, there are no Vietnamese places in the East. Would you like to try a different area?",1100000,other
+SNG0716.json,How about an international restaurant instead on the east?,Thanh binh is in the west part of town,1000000,inform
+SNG0716.json,Yes please. Can I get the postcode.,The Missing Sock is a cheap restaurant on the east side of town that serves international food. Would you like more information on that place?,1100000,request_info
+SNG0716.json,"Not the phone number, the postcode, please.","Sure, the phone number is 01223812660.",1100000,request_info
+SNG0716.json,Thank you very much. I am all set. Bye.,My apologies. The postcode is cb259aq.,1100000,bye
+WOZ20473.json,I want expensive Korean food. I want the address and area of town.,,0000000,request_info
+WOZ20473.json,What part of town is that in?,Little Seoul is a Korean restaurant in the city centre and is in the expensive price range. The address is 108 Regent Street.,1010000,inform
+WOZ20473.json,I wanted Indonesian food if possible. I wanted to ask about expensive Indonesian food first.,Little Seoul is located in the centre of town.,1011000,inform
+WOZ20473.json,Thank you for your help!,There are no Indonesian restaurants. May I search for something else?,1010000,bye
+WOZ20554.json,May I have information for an italian restaurant in the east part of town?,,0000000,inform
+WOZ20554.json,What is their address please?,yes sure. there is only on italian restaurant called pizza hut fen ditton in the east. What else do you want to know?,1100000,request_info
+WOZ20554.json,"Thank you, goodbye.",The address for pizza hut fen ditton is Cambridge Retail Park Newmarket Road Fen Ditton. Can I help you with anything else?,1101000,bye
+WOZ20455.json,I'm looking for a cheap restaurant in the west part of town. I'd also like the restaurant's phone number.,,0000000,request_info
+WOZ20455.json,Vietnamese sounds good. Could I have the phone number for Thanh Binh?,There are two cheap restaurants in the west part of town. La Margherita is an Italian restaurant and Thanh Binh is a Vietnamese restaurant. Would you like the phone number for one or both of those?,0110000,request_info
+WOZ20455.json,"Thank you, goodbye",The phone number is 01223 362456.,1111000,bye
+SSNG0121.json,Could you help me find an expensive asian oriental restaurant?,,0000000,inform
+SSNG0121.json,Let's go with the centre. I need a reservation for 2 at 13:30 on Thursday.,There are two restaurants. One located in the North area and Centre area. Which one would you prefer?,1010000,book
+SSNG0121.json,I need a different restaurant in the same area and price range please.,"I am sorry there are no tables available,can I help you find another place to eat?",1110111,book
+SSNG0121.json,Does the HK Fusion Chinese restaurant have availability on Thursday at 13:30?,"I could try Little Seoul, which is Korean, or possibly HK Fusion Chinese. If you want. Would you like me to?",0110111,book
+SSNG0121.json,"That is all, thanks, bye.",Yes there is availability. I made a reservation for Thursday at 13:30 for 2. The reference number is CBZ1WPRF. Is there anything else I can help you with?,0111111,bye
+WOZ20284.json,"Hello, I am looking for a restaurant on the south side of town that serves christmas food.",,0000000,inform
+WOZ20284.json,how about chinese?,"I'm sorry, there aren't any restaurants serving Christmas food. Would you like something else instead?",1100000,inform
+WOZ20284.json,I don't care about price.,There are three results that serve chinese on the south area of town. do you have a price range preference?,1100000,request_info
+WOZ20284.json,"Yes, I would like their address.",Peking Restaurant is an expensive Chinese restaurant in the south part of town. Would you like their information?,1110000,request_info
+WOZ20284.json,what is the food type of that restaurant?,The address for Peking Restaurant is 10 Homerton street city centre. Is there any other information you require?,1110000,inform
+WOZ20284.json,Thank you goodbye.,They serve chinese food.,1111000,bye
+WOZ20236.json,I am looking for an expensive restaurant in the east part of town.,,0000000,inform
+WOZ20236.json,Is there anything else?,"I have found several. Would you like British, Indian, gastropub, or Chinese?",0110000,other
+WOZ20236.json,"No, that's okay. What Chinese restaurants are there on the east side?","There are no other types of expensive restaurants in the east, would you like to try another area?",0110000,inform
+WOZ20236.json,Is there another chinese restaurant in the east?,"yu garden is on the east side, would you like the phone number?",1110000,other
+WOZ20236.json,What is the phone number for Yu Garden?,Yu Garden is the only Chinese restaurant on the east side of town in the expensive price range.,1110000,request_info
+WOZ20236.json,"No, I think that's it. Thank you for your help.",The phone number for Yu Garden is 01223 248882. May I help you with anything else?,1111000,bye
+SNG1267.json,i am looking for a place to dine. The restaurant should be in the moderate price range and should serve international food.,,0000000,inform
+SNG1267.json,Are they located in the cetre?,May I recommend Bloomsbury Restaurant? It serves wonderful International food.,1010000,inform
+SNG1267.json,"Yes, please try for Sunday at 19:00 for 2 people.","Yes, they are. Should I book that for you?",1111000,book
+SNG1267.json,Thanks so much. That's all I needed. Goodbye.,"Alright - you are booked, reference number is 4GHAH1TC.",1111111,bye
+WOZ20274.json,Is there a cheap swedish restaurant in town?,,0000000,inform
+WOZ20274.json,How about one serving mediterranean food?,There are no restaurants matching those preferences. Would you like a different restaurant?,1010000,inform
+WOZ20274.json,That sounds good. What is their phone number and postcode?,There is a cheap Mediterranean restaurant in the centre area of town. It is called The Gardenia.,1010000,request_info
+WOZ20274.json,Thank you!,"The Gardenia is in the postcode C.B 2, 3 L.L. Their phone number is 01223 356354.",1111000,bye
+WOZ20274.json,Thank you goodbye.,"Your welcome, is there anything I could help you with?",1111000,bye
+WOZ20341.json,I am looking for a restaurant that is in the south part of town and in the cheap price range.,,0000000,inform
+WOZ20341.json,Hmm... Are there any other options available for cheap in the south side?,"Nandos is located in the south part of town, is in the cheap price range and serves Portuguese food.",0110000,other
+WOZ20341.json,phone number please,"Yes, the lucky star serves chinese food, is located in the south part of town and is in the cheap price range. Would you like their location?",0110000,request_info
+WOZ20341.json,What is the postcode?,The phone number for The Lucky Star is 01223 244277. May I help you with anything else?,1111000,other
+WOZ20341.json,Thank you goodbye.,The postcode for The Lucky Star is C.B. 1 7 D.Y,1111000,bye
+SNG0615.json,I am looking for an expensive restaurant in the centre,,0000000,inform
+SNG0615.json,I'll take something Chinese if you have it. I'll take the postcode of which every of those you recommend.,"Alright, well you have 33 to choose from. Any type of cuisine you're looking for?",0110000,request_info
+SNG0615.json,"No, that will do it. Thanks for your help. Have a nice day.",Okay the postcode for the Golden House is cb21eg. Is there anything else I can help you with?,1110000,bye
+SNG0470.json,Hi! I'd like to find an expensive Indian restaurant to dine at.,,0000000,inform
+SNG0470.json,Is Curry garden in the centre?,Curry garden is an Indian restaurant in the expensive price range.,1010000,other
+SNG0470.json,"I'm not looking for a reservation at the moment. Can I just get the phone number, postcode, and address? Thanks!",Yes it is. Would you like me to make a reservation for you there?,1010000,request_info
+SNG0470.json,"No, that's all I need. Thanks for your help.","Certainly. The phone number for Curry Garden is 01223302330, the postcode is cb21dp, and the address is 106 Regent Street City Centre. May I assist you with anything else today?",1010000,bye
+SNG1361.json,"Hi, i am looking for a indian restaurant on the west side of town.",,0000000,inform
+SNG1361.json,That's not necessary. Can you tell me what price range it's in?,I highly recommend Meghna. It is a moderate priced indian restaurant located on 205 Victoria Road Chesterton. Would you like me to book it?,1100000,request_info
+SNG1361.json,Perfect. How about the phone number and postcode?,It is in the moderate range for price.,1100000,request_info
+SNG1361.json,Thank you so much for your help!,Their post code is cb43lf and they can be reached at 01223727410.,1101000,bye
+SNG1361.json,"Nope, that's all I needed today. Thanks!",You're welcome is there anything else I can assist with today?,1101000,bye
+SNG1361.json,It's one of my favorite places to visit. Thanks. Goodbye.,"Awesome, thank you for spending time in Cambridge.",1101000,bye
+SSNG0150.json,I am looking for a restaurant called the Slug and Lettuce.,,0000000,inform
+SSNG0150.json,that sounds great. Could you make a reservation at 16:00 for 2 people this Saturday?,I found a listing for the Slug and Lettuce. The address is 34 - 35 Green Street in the center of town. It serves gastropub food.,0001000,book
+SSNG0150.json,"Yes, is there anything else in the same vicinity and the same general price range?","Unfortunately the booking was unsuccessful, would you like to try a different restaurant or different day and time?",0001111,inform
+SSNG0150.json,"Nah, either one is fine. I need a reference number though.",I have Backstreet Bistro and The Cow Pizza Kitchen Bar. They both serve gastropub food. Which one do you prefer?,1100111,book
+SSNG0150.json,That will be all. Thank you for your help!,"Ok, I have booked you at the backstreet bistro. Reference number 42VFS0SM. Is there anything else I can help you with?",1101111,bye
+MUL1444.json,I'm so hungry! Can you find me an expensive restaurant?,,0000000,inform
+MUL1444.json,"Actually, I'd prefer some good German food. Is there an expensive German restaurant in the city centre?",Well if your going to be in the centre then may I suggest kymmoy? They serve asian oriental,0010000,inform
+MUL1444.json,How about one that serves mediterranean food in the same parameters?,I don't have an expensive German restaurant in the centre. We could try a cheaper restaurant or in a different location if you like.,1110000,inform
+MUL1444.json,I'd like to try La Mimosa. Could I get a table for 8 at 15:30 on Friday? A reference number would be great. Thank you,"Yes, there are two! La Mimosa and Shiraz. Which one do you prefer?",1110000,book
+MUL1444.json,How much should I expect the cost per person to be at this place?,"Your table is reserved for Friday, reference number 6HD6GFXN. Can I help you with anything else today?",1111111,book
+MUL1444.json,That's fine then. Thank you for your help.,I am not sure the exact price per person.,1111111,bye
+SNG1276.json,I'm looking for a restaurant. The restaurant should serve italian food and should be in the expensive price range.,,0000000,inform
+SNG1276.json,I am looking in the centre of town.,Okay. Do you want to dine in a specific area?,1010000,inform
+SNG1276.json,"Yes, surprise me please! it's for 8 people at 16:30 on Tuesday.",We have 4 expensive italian restaurants in the center of town. Two are in Market Hill City Centre. Shall I just pick one for you?,1110000,book
+SNG1276.json,"No, thank you so much! Have a nice day",Booking was successful at don pasquale pizzeria. The table will be reserved for 15 minutes. Reference number is: OYESLS03. Can I help with anything else?,1110111,book
+SNG01725.json,looking for a place to dine. The restaurant should serve british food and should be in the expensive price range.,,0000000,inform
+SNG01725.json,I would. It's a party of 6 for Monday at 15:45. Can I get the reference number when you're done?,Fitzbillies restaurant at 51 Trumpington Street City Centre fits your request. Would you like me to book a table for you?,1010000,book
+SNG01725.json,"No, that's everything. Thanks for your help.",Your reservation has been made. The reference number is GK4F8AFS. Is there anything else I can help you with?,1011111,bye
+SNG01725.json,Thank you for your help,welcome next time,1011111,bye
+SNG0738.json,Can you help me find an expensive restaurant in the town centre?,,0000000,inform
+SNG0738.json,I was thinking maybe trying something european.,"There are many high class restaurants in town centre, is there a particular cuisine you'd prefer?",0110000,inform
+SNG0738.json,That sounds great! Can I book a talbe for 7 people at 17:30 on Wednesday?,"Eraina is an expensive European restaurant in the city centre, would you like me to book that for you?",1110000,book
+SNG0738.json,"No, that's it. Thanks.",Your booking was successful. The table will be reserved for 15 minutes. The reference number is 0UD63QC0. Can I assist you with anything else today.,1111111,bye
+WOZ20179.json,"Hello, I am looking for a Lebanese restaurant in any area. Could you please provide me with a phone number and postcode? I'm very hungry and need food!!",,0000000,request_info
+WOZ20179.json,"Thank you, goodbye!","Ali baba is a lebanese restaurant in the centre of town. Their phone number is 01462 432565 and the postcode is C.B 2, 1 N.T",1100000,bye
+WOZ20179.json,thank you goodbye,You're welcome!,1100000,bye
+WOZ20314.json,Indian in the north,,0000000,inform
+WOZ20314.json,"What is the address, phone number, and price range of one of them?","there are two Indian restaurants, Royal Spice and The Nirala.",1100000,request_info
+WOZ20314.json,Thank you goodbye.,Royal Spice is an Indian restaurant on the North part of town and it is in the cheap price range. The phone number is 01733 553355 and the address is Victoria Avenue Chesterton.,1100000,inform
+SSNG0180.json,I want a place to dine that is in the centre please.,,0000000,inform
+SSNG0180.json,I would like to narrow it down by price and I want Chinese.,There are 69 restaurants in the centre. Would you like to narrow it down by type of food or price?,0100000,inform
+WOZ20492.json,I want a restaurant that serves international cuisine.,,0000000,inform
+WOZ20492.json,I would like to know one of the address and phone number.,There are three restaurants of varying price range serving your requested type of cuisine. Would you like to narrow your request?,1000000,request_info
+WOZ20492.json,thank you good bye,"The Varisty restaurant, a Centre location is at 35 Sanit Andrews street city centre with a phone number of 01223 356060.",1000000,bye
+SSNG0052.json,I'm looking for an expensive mediterranean restaurant.,,0000000,inform
+SSNG0052.json,Could you check either to see if I could make a reservation for 8 people at 15:00 on Monday?,I show two that are located in the centre. We have the La Mimosa or the Shiraz Restaurant. May I book a table for you?,1010000,book
+SSNG0052.json,Thank you very much.,"Yes. I have successfully books you at the shiraz resturant, address 84 Regent Street City Centre. Your reference number is 9OE645NY. You should arrive within 15 minutes of your time.",1011111,bye
+WOZ20579.json,I am looking for an expensive restaurant that serves Welsh food.,,0000000,inform
+WOZ20579.json,How about korean food?,"I apologize, there are no restaurants in the expensive price range that serve Welsh food. Would you like a different type of food?",1010000,inform
+WOZ20579.json,"Yes, I would like their address and what part of town they are located in.",Little Seoul is an expensive Korean restaurant. Is there anything else I can help you with?,1010000,request_info
+WOZ20579.json,"Thank you, goodbye.",Little Seoul is located in the centre of town and the address is 108 Regent Street City Centre.,1011000,bye
+PMUL3720.json,I am looking for information in Cambridge,,0000000,other
+PMUL3720.json,I'm hoping to find somewhere expensive to dine in the south,You have come to the right place! What can I do for you?,0000000,inform
+PMUL3720.json,I am looking for chinese please.,"I have 2 chinese places, an indian, an italian and a mexican place that fit that description. What type of food are you in the mood for?",0110000,book
+PMUL3720.json,you can choose and then book it for me for 7 people on saturday at 12:45. and tell me the reference number,There are two choices: Peking restaurant or the good luck Chinese food takeaway. Which one appeals to you?,1110100,book
+WOZ20635.json,I would like a barbeque restaurant.,,0000000,inform
+WOZ20635.json,I do not care about the price range or location.,"Where would you like to search for a restaurant, and what price range would you prefer?",1000000,inform
+WOZ20635.json,"Do you have an address, phone number and postcode for a North American food restaurant?",There are no restaurants serving barbeque.,1110000,request_info
+WOZ20635.json,Thank you good bye.,"The Gourmet Burger Kitchen is at Regent Street City Centre, post code C.B 2, 1 A.B. The phone number is 01223 312598.",1110000,bye
+PMUL0934.json,I'm looking for an expensive restaurant that serves Indian food please.,,0000000,inform
+PMUL0934.json,No. Just need it to be open on Saturday.,"We have several of those, were you looking for any particular part of town?",1010000,book
+PMUL0934.json,Which one would you suggest?,"Okay, would you like me to attempt to book a table at one of these fine restaurants for Saturday?",1110010,book
+SNG1224.json,I'm looking for a place to dine. The restaurant should serve japanese food and should be in the centre.,,0000000,inform
+SNG1224.json,"I'd like somewhere expensive, is it?",There is one restaurant called wagamama that fits your needs.,1100000,inform
+SNG1224.json,Then that will be good. I need a reservation for 4 on Friday night please.,Yes it is.,1110000,book
+SNG1224.json,I'd like to eat at 17:30,What time would you like to dine?,1110110,book
+SNG1224.json,"That is it, thank you.",Booking was successful. The table will be reserved for 15 minutes. Reference number is: FFAIB546. Can I be of any other assistance today?,1111111,bye
+WOZ20399.json,Is there any place that serves BBQ around here?,,0000000,inform
+WOZ20399.json,I am interested in Portuguese food.,"I'm sorry there are no bbq places in the city, Is there another type of food you would be interested in?",1000000,inform
+WOZ20399.json,I don't care. can you give me one of the address?,There are two portuguese restaurants. Would you prefer the south or centre part of town?,1000000,request_info
+WOZ20399.json,I don't care about the price range.,"Sure, nandos in the south and its phone number is 01223 327908",1100000,inform
+SSNG0019.json,I'm looking for a thai restaurant on the west side.,,0000000,inform
+SSNG0019.json,"Yes, please. Could you book it for 5 people on sunday?",Sala thong is a thai restaurant on the west side that is expensive. Do you want me to book it for you?,1100000,other
+SSNG0019.json,I would like a table for 13:00.,Yes of course. What time would you like me to make your reservation?,1100000,book
+SSNG0019.json,"Yes, please find me another restaurant in the same price range on the west side.","I was unable to book that, would you like me to try a different time or different restaurant?",1101111,inform
+SSNG0019.json,"Ok, that would be fine. Can you please send me the reference number?",How about Cocum? It's an expensive Indian restaurant on the west side.,0110111,book
+SSNG0019.json,"No that is all, thank you, cheers.",Okay. I was able to book your table. Your reference number is WS8R5J04. Is there anything else I can help you with?,0111111,bye
+SNG02106.json,I'd like to find an expensive place to dine that specifically serves italian food.,,0000000,inform
+SNG02106.json,I would like the south part of town please.,Okay. Would you like to go to the centre or south part of town?,1010000,inform
+SNG02106.json,"Yes, please. There are 4 of us for this Friday at 16:00.","Frankie and Bennys meets you criteria, would you like me to make a reservation for you?",1110000,book
+SNG02106.json,how about 15:00 instead?,Booking was unsuccessful. Perhaps another day or time?,1111111,book
+SNG02106.json,"Yes, I will need the reference number.","Okay, that worked, and I've successfully booked your table. I can give you the reference number, if you'd like.",1111111,book
+SNG02106.json,No that was everything I needed. Thank you for your help!,Your Reference number is: VRU8VSG0. Do you need any further assistance?,1111111,bye
+WOZ20572.json,I'm looking for an expensive restaurant in the south.,,0000000,inform
+WOZ20572.json,I don't have any preference.,"Hi! We have mexican, italian, indian, and chinese restaurants that fit the bill. Do you have any preferences?",0110000,inform
+WOZ20572.json,Do you have a phone number for them?,Chiquito restaurant bar is located in the south part of town and in the expensive price range.,1110000,request_info
+WOZ20572.json,Have a good evening.,The number is 01223 400170.,1111000,bye
+MUL1231.json,Can you help me find a place to eat located in the centre that serves british food?,,0000000,inform
+MUL1231.json,"Yes, actually. Is there one that is expensive?","There are 7 places in the centre area that serve British cuisine, do you have a preference on price range?",1100000,inform
+MUL1231.json,What are their names? I need to choose one I can book a table at.,"Yes, I've found three all in the city centre. Is there one of these that you would prefer?",1110000,other
+MUL1231.json,The cambridge chop house sounds good. Could you book it for 5 people at 19:45 on monday?,"they are fitbillies restaurant, the cambridge chop house and the midsummer house restaurant",1110000,book
+MUL1231.json,"Yes, can you try the same for 18:45 instead?","Unfortunately, there is no availability for your party at that time. Would you like to book a different time slot or day?",1111111,book
+MUL1231.json,Thank you and Goodbye,You're booked and the reference number is BQT142V9. The table will be reserved for 15 minutes. Is there anything else you need?,1111111,bye
+WOZ20423.json,I'm looking for a restaurant that serves swiss food.,,0000000,inform
+WOZ20423.json,How about vietnamese food?,I'm sorry but there are no swiss restaurants in town. Can i offer you something else?,1000000,inform
+WOZ20423.json,could I have the address and phone number please?,Yes thanh binh serves vietnamese food and it is in the west part of town can i help you with anything else?,1000000,request_info
+WOZ20423.json,what is the food type of that restaurant?,thanh binh is located at 17 Magdalene Street City Centre and phone number is 01223 362456.,1001000,other
+WOZ20423.json,what is the price range?,They serve vietnamese food.,1001000,request_info
+WOZ20423.json,"Thank you, goodbye.",They are in the cheap price range.,1001000,bye
+SNG1262.json,I am looking for information about city stop restaurant?,,0000000,inform
+SNG1262.json,I would like to book a table there for 4 peole on saturday at 19:45. and can i please get a reference number?,I have pulled up City Stop Restaurant. What information do you need?,0001000,book
+SNG1262.json,"Alright, thank you very much. That's all I need for now.",Booking was successful. The table will be reserved for 15 minutes. Reference number is: OMKMNJEM.,0001111,bye
+WOZ20494.json,I want to find an expensive restaurant serving mediterranean food. What is the address and phone number?,,0000000,request_info
+WOZ20494.json,What is their address and phone number?,"La Mimosa, at Thompsons Lane Fen Ditton, is expensive and serves mediterranean food.",1010000,request_info
+WOZ20654.json,I am looking for a moderately priced restaurant in the south part of town. Any kind of food is good with me; I would just like to know the phone number of the venue you find.,,0000000,request_info
+WOZ20654.json,Can you tell me what type of food they serve?,Restaurant Alimentum's phone number is 01223 413000.,1110000,request_info
+WOZ20654.json,"Thank you, goodbye.",Restaurant Alimentum serves modern European food.,1111000,bye
+WOZ20220.json,I would like a cheap Spanish restaurant.,,0000000,inform
+WOZ20220.json,Yes please,La Raza is a cheap Spanish restaurant. Would you like their phone number or address?,1010000,request_info
+WOZ20220.json,Thank you goodbye.,La Raza's phone number is 01223 464550 and the address is 4 - 6 Rose Crescent. Anything else I can help you with?,1011000,bye
+PMUL0681.json,I would like to dine at a restaurant in the south that serves barbeque. Can you help?,,0000000,inform
+PMUL0681.json,"Oh, that's too bad. How about Italian?","Nothing matches that search, can I try a different area or restaurant type?",1100000,inform
+PMUL0681.json,"Either one is fine, Ill go with what you recommend, please book me for 8 people at 18:45 on thursday.",Yes I have two in the south. do you have a preference in price range?,1100000,book
+PMUL0681.json,Great! Thank you. Have a great day!,i have booked frankie and bennys and Reference number is: JMGIG52I.,1100111,book
+WOZ20213.json,I am interested in finding an expensive restaurant serving Italian food.,,0000000,inform
+WOZ20213.json,I don't care which area the restaurant is located in.,There are expensive Italian restaurants in centre and south. Do you have a preferred area?,1010000,inform
+WOZ20213.json,Can I have the address and phone number please?,There is a very nice Italian restaurant called Stazione Restaurant and Coffee Bar in the centre of town.,1110000,request_info
+WOZ20213.json,what type of food do they serve?,The phone number for stazione restaurant and coffee bar is 01223 352607 and they are located at Market Hill City Centre.,1111000,request_info
+WOZ20213.json,Thank You,They serve italian food.,1111000,bye
+SNG0452.json,I'd like to find a restaurant that serves Chinese food in the south please.,,0000000,inform
+SNG0452.json,"Yes, I would prefer an expensive one please.",There are 3 restaurants in the South part of town that serve Chinese food. Would you like more information on one of them?,1100000,inform
+SNG0452.json,"No, not yet, thanks. Could you give me the address/postcode for Peking Restaurant?",I have two that would be on the expensive side. The Good Luck Chinese Food Takeaway and the Peking Restaurant. Can I reserve a table for you at either of these?,1110000,request_info
+SNG0452.json,"Alright, sounds good.",The address for peking restaurant is 10 homerton street city centre and its postcode is cb28nx.,1111000,other
+SNG0452.json,"No, that's all. Thanks!",Is there anything else I can do for you?,1111000,bye
+WOZ20328.json,Is there any restaurants on the south part of town?,,0000000,inform
+WOZ20328.json,I want a restaurant serving chinese food? What is the address and price range?,"Yes, Chiquito Restaurant Bar is a nice restaurant in the south part of town.",0100000,request_info
+WOZ20155.json,"Hi, I'm looking for an expensive restaurant serving English food.",,0000000,inform
+WOZ20155.json,How about find me a turkish one?,No restaurant matching your description have been found.,1010000,inform
+WOZ20155.json,Great! Where is it located?,There is one expensive Turkish restaurant in town: Meze Bar Restaurant.,1010000,inform
+WOZ20155.json,"Thank you, goodbye.","It's in the centre of town, the address is 196 Mill Road City Centre.",1011000,bye
+WOZ20171.json,I want to find a cheap restaurant in the west part of town. What is the address and food?,,0000000,request_info
+WOZ20171.json,Thank you.,La margherita an italian restaurant in the west part of town and in the cheap price range. Their address is 15 magdalene street City Centre,0110000,bye
+WOZ20014.json,I am looking for a restaurant that serves Caribbean food and in the moderate price range.,,0000000,inform
+WOZ20014.json,Are there any spanish restaurants?,There is not a Caribbean restaurant in the moderate price range. Would you like a different restaurant?,1010000,inform
+WOZ20014.json,"What is the address, phone number, and postcode?",yes. la tasca is a nice spanish restaurant in the moderate price range.,1010000,request_info
+WOZ20014.json,Thank you good bye.,"la tasca is located at 14 -16 Bridge Street and the postcode is C.B 2, 1 U.F. Their phone number is 1223 464630. May I help you with anything else?",1011000,bye
+SNG0191.json,I am looking for a hospital in town.,,0000000,inform
+SNG0191.json,"I just need the name, address and phone number of a hosptital.",What is the address for this hospital?,1111000,bye
+WOZ20053.json,I want a restaurant in the centre and serves japanese food. What is the address?,,0000000,request_info
+WOZ20053.json,Thank You!,Wagamama serves Japanese food and is in the center area of town. The address is 36 Saint Andrews Street.,1100000,bye
+WOZ20053.json,No thank you,Is there anything else I can help you with?,1100000,bye
+WOZ20474.json,I would like an expensive restaurant that serves afghan food,,0000000,inform
+WOZ20474.json,How about asian oriental food?,It does not appear there are any restaurants serving afghan food,1010000,inform
+WOZ20474.json,Could you tell me the phone number of Saigon City?,"Kymmoy is in centre, and Saigon City is in north. Would you like more information on one of those?",1010000,request_info
+WOZ20474.json,"Yes, I would like the number for Saigon City.",The phone number for Kymmoy is 01223 311911. Would you like any additional information?,1011000,request_info
+WOZ20474.json,"Thank you. Can you also tell me the address for Saigon City, please?",01223 356555 is the number.,1011000,other
+WOZ20474.json,Which part of town it is in?,the address for saigon city is 169 High Street Chesterton Chesterton,1011000,other
+WOZ20474.json,thank you good bye,it is located in the north part of town,1011000,bye
+WOZ20032.json,I am looking for a moderately priced restaurant in the west part of town.,,0000000,inform
+WOZ20032.json,"No, i dont care about the cuisine.","There are three, moderately priced restaurants in the west part of town. Do you have a preference of cuisine?",0110000,inform
+WOZ20032.json,I need the address.,meghna is a restaurant in the west part of town and moderately priced. would you like their phone number and address?,1110000,request_info
+WOZ20032.json,no. thank you,meghna is located at 205 Victoria Road Chesterton. Can I help you with anything else?,1111000,bye
+SSNG0182.json,"Hi, I'm looking for cheap places to eat in the city centre?",,0000000,inform
+SSNG0182.json,Yes. I would like to book a reservation for 3 at 16:45 on Saturday.,Yes I have several Chinese and Asian restaurants. Do any of these interest you?,0110000,book
+SSNG0182.json,Yes thank you.,"OK, I was able to get you a table at Dojo Noodle Bar. The reference number is T5AAEPL9 and they'll hold the table for 15 minutes. Is that good?",0110111,book
+SSNG0182.json,No thank you.,Will you be needing anything else today?,0111111,bye
+WOZ20289.json,Is there anywhere that serves British fish and chips around here?,,0000000,inform
+WOZ20289.json,I'd like something downtown and moderately priced,There are a lot of restaurants that serve British food. Do you have a specific area or price range in mind?,1000000,inform
+WOZ20289.json,"Any area is fine, really. It should be moderately priced however.","We do not have any restaurant downtown, would you like me search in a different area?",1110000,request_info
+WOZ20289.json,"East, please.",I found four British restaurants in centre and one in east. Which area would be more convenient?,1110000,inform
+WOZ20289.json,"Yes, I would like the address and phone number, please.","I found cotto, a moderate british restaurant in the east. Do you like the address and phone number?",1110000,request_info
+WOZ20289.json,Thank you. Goodbye.,The address is 183 East Road City Centre and the phone number is 01223302010.,1111000,bye
+SNG0643.json,"Hi, I would like a restaurant inthe centre of town which serves creative food please.",,0000000,inform
+SNG0643.json,How about a restaurant that services Chinese food?,"Sadly there are no restaurants anywhere in Cambridge that describe their food as ""creative."" We do have many restaurants in town, though, so I'd be happy to look for something else.",1100000,inform
+SNG0643.json,I don't care about the price range. Can you just pick a good one for me?,There are 10 Chinese restaurants in the centre of town. Is there a specific price range you would like?,1100000,inform
+SNG0643.json,"Yes, sounds good. Please reserve a table for six at 12:15 on Saturday.","If money is no concern, I would definitely recommend HK Fusion. It's in the centre of town and expensive. It's located at 21 Burleigh Street, City Centre. How does that sound?",1110000,book
+SNG0643.json,Is 11:15 on Saturday available?,That was unsuccessful. Would you like another day or time slot?,1111111,book
+SNG0643.json,Nothing else. I look forward to the meal. Thank you for all your help.,That booking was successful. A reservation was made for 6 people at HK Fusion on Saturday at 11:15. Reference is ARWFXLDL. Can I help with anything else?,1111111,bye
+SNG0524.json,I'm looking for a moderately priced resturant in the centre of town.,,0000000,inform
+SNG0524.json,I would like lebanese food.,"I found 21 restaurants available, do you have a type of food you would prefer?",0110000,inform
+SNG0524.json,"Yes, I want to book a table for 3 people at 20:00 on thursday.",How does Ali Baba? I recommend it. Would you like for me to book a table?,1110000,book
+SNG0524.json,"No, I think that's all I need. Thank you!","Great, I have booked your table for ali baba thursday at 20:00 for 3. Your reference number is 5LY9WSF1. May I help with anything else?",1111100,bye
+WOZ20650.json,a north part of town restaurant,,0000000,inform
+WOZ20650.json,I do not care about the price range but would like somewhere serving indian food.,do you have a price range preference? We have several restaurants in the north part of town,0100000,inform
+WOZ20650.json,What is the address and phone number?,There is a fairly cheap Indian restaurant named Royal Spice in the north part of town.,1110000,request_info
+WOZ20650.json,"Nope, that was all I needed. Thank you. Bye bye.",Royal spice is located at victoria avenue chesterton and its phone number is 01223 360966. Is there anything else I can help you with?,1111000,bye
+WOZ20379.json,Please give me a moderately priced restaurant serving brazilian food,,0000000,inform
+WOZ20379.json,Could you recommend an Indian restaurant in the same price range?,"I'm sorry, but there are no moderately priced Brazilian restaurants.",1010000,inform
+WOZ20379.json,"no, I don't care.","Sure, there are 4 indian restaurants in the moderate price range. Do you prefer a certain part of town?",1010000,inform
+WOZ20379.json,That sounds good. What is the address and phone number?,"How about Curry Prince, which is in the east part of town and serves Indian food?",1110000,request_info
+WOZ20379.json,Is there any other indian restaurants in the same price range?,the phone number for the curry prince is 01223 566388 and they are located at 451 Newmarket Road Fen Ditton.,1111000,other
+WOZ20379.json,"Thank you for all your help, and have a nice evening.",Meghna serves moderately priced indian food in the west part of town.,1111000,bye
+WOZ20583.json,"Hi, I'm looking for good Chinese food on the west side.",,0000000,inform
+WOZ20583.json,Thank you goodbye,"sorry, there is no chinese restaurant in the west side. do you want another type of food or different part of town?",1100000,bye
+WOZ20464.json,Yes. I would like a moderately priced restaurant in the east part of town.,,0000000,inform
+WOZ20464.json,Is there any other restaurant?,"curry prince serves indian food, in the moderate price range and in the east part of town.",0110000,other
+WOZ20464.json,What is the address?,Pizza Hut Fen Ditton is in the east part of town and serves moderately priced Italian food.,0110000,request_info
+SNG0608.json,I need an expensive restaurant in the centre.,,0000000,inform
+SNG0608.json,Yes Indian sounds good to me!,Great! There are a lot of tasty choices. Are you in the mood for a specific type of food?,0110000,inform
+SNG0608.json,"Yeah, that sounds great. Would you reserve me a table for 4, Friday at 13:15 please?",I have many to choose from. What about The Saffron Brasserie?,1110000,book
+SNG0608.json,Thanks a bunch! That's all I needed. Take care and have a good day.,"Booked, your table will be held for 15 minutes. Your reference number is GBPIJP33.",1111111,bye
+SNG0666.json,"I'd looking for a good restaurant on the east side. I'd prefer the moderate price range, if possible.",,0000000,inform
+SNG0666.json,I would like Indian please.,Would you prefer Indian or Italian food?,0110000,inform
+SNG0666.json,I'd like to book curry prince for 6 people at 15:45 on saturday please.,"There is curry prince, and rajmahal, would either of those work for you?",1110000,book
+SNG0666.json,"Great, thanks for your help.","Alright, I have you reservation made. The reference number is SMAMRCQ9.",1111111,bye
+SNG0666.json,"No, that will be everything today. Thank you.",Is there anything else I can help you with?,1111111,bye
+WOZ20065.json,I would like a moderately priced restaurant in the north part of town,,0000000,inform
+WOZ20065.json,Is there anything else?,golden wok is a moderately priced restaurant in the north part of town,0110000,other
+WOZ20065.json,What kind of food does The Nirala serve?,The Nirala is moderately priced restaurant in the north of town as well.,0110000,request_info
+WOZ20065.json,What is their phone number?,The Nirala serves Indian,0111000,request_info
+WOZ20065.json,"No, thank you. I have all the information that I need now.",The phone number for the nirala is 01223 360966. Can I help you with anything else today?,0111000,bye
+WOZ20065.json,Good bye,Thank you for using our system. Good bye,0111000,bye
+SNG1329.json,"Hi, I need a place to eat in the centre for a medium price range. What do you have that you can suggest?",,0000000,inform
+SNG1329.json,"Sure, can you try to find a british restaurant?","We have 21 of those, including those serving british food and many other types. Can you narrow it down some?",0110000,inform
+SNG1329.json,That sounds great. I need a reservation for 6 people at 14:45 on Wednesday.,Cotto is very good. Can I reserve a table for you?,1110000,book
+SNG1329.json,"Thanks, that's all I needed today. Goodbye!",I was able to make a reservation for 6 people at Cotto on Wednesday at 14:45. Your reference number is RX6XP8KP.,1111111,bye
+WOZ20393.json,expensive mediterranean restaurant please,,0000000,inform
+WOZ20393.json,What is the phone number and postcode?,La mimosa is an expensive mediterranean restaurant in the centre part of town. Would you like their location?,1010000,request_info
+WOZ20393.json,Thank you good bye.,"The phone number for La Mimosa is 01223 362525, and the postcode is CB58AQ.",1011000,bye
+WOZ20393.json,"Thank you, goodbye.",thank you for using our system. good bye,1011000,bye
+SNG0749.json,Could you help me find a moderate priced restaurant in the centre?,,0000000,inform
+SNG0749.json,Is there anything cheap in the town centre?,"Certainly! However, there are no moderately priced restaurants in the town centre. Would you like to try a different area or price range?",0110000,inform
+SNG0749.json,"I really need it to be in the moderate price range, there's really nothing in the city centre? Any cuisine will do.",I'm sorry there are no cheap restaurants n that area. Would you like to change your price range or area?,0110000,inform
+SNG0749.json,Please surprise me.,"I'm sorry, we must have had technical difficulties. We actually do have 21 restaurants in the centre of town that are moderately priced. Do you have a certain cuisine in mind?",1110000,other
+SNG0749.json,Can I have their phone number and address please?,"Okay, Cotto is a British restaurant in the moderate price range. Would you like me to book it for you?",1110000,request_info
+SNG0749.json,"No, I think I have everything I need. Thanks. Bye.","The phone number for the Cotto is, 0122302010.The address us 183 East Road, City Centre. Anything else?",1110000,bye
+WOZ20130.json,I want to find a restaurant in the south part of town serving singaporean food.,,0000000,inform
+WOZ20130.json,Indian food of course and what is the phone number?,"I'm sorry, there is not a restaurant serving singaporean food in the south part of town. Would you like to try indian food?",1100000,request_info
+WOZ20130.json,"No that will be all. Thank you, goodbye.",Taj Tandoori serves Indian food on the south part of town. Their number is 01223 412299. Is there anything else I can help you with today?,1100000,bye
+WOZ20552.json,I am looking for a moderately priced restaurant in the south part of town.,,0000000,inform
+WOZ20552.json,I dont want it. Show me another one.,Pizza Hut Cherry Hinton is a moderately priced restaurant that's in the south part of town.,0110000,other
+WOZ20552.json,What is the address please?,The restaurant alimentum is a moderately priced restaurant in the south part of town.,0110000,request_info
+WOZ20552.json,"Thanks. Could I get the phone number, too?",152 - 154 Hills Road,0111000,request_info
+WOZ20552.json,"thank you, goodbye",restaurant alimentum's phone number is 01223 413000,0111000,bye
+SSNG0067.json,I want to eat chinese food in the centre.,,0000000,inform
+SSNG0067.json,Sure. I would like to book a table for 5 people at 11:00 on Saturday.,How about Charlie Chan? It is a cheap chinese restaurant in the centre.,1100000,book
+SSNG0067.json,"Book it for XXXX, can I please get a reference number?",I'm booking you a table for 5 at 11:00 Saturday at Charlie Chan. What name should I place this under?,1101111,book
+SSNG0067.json,Are there any other cheap restaurants in the area?,Booking was unsuccessful. Would you like to find another restaurant?,1101111,inform
+SSNG0067.json,Are there any in the same area and price range but not Chinese?,"Not in that criteria, perhaps another area or price range?",1110111,book
+SSNG0067.json,"Yes, please try J Restaurant. Asian Oriental food sounds good.","I don't know what I was thinking earlier, we actually have a lot of cheap restaurants in the centre. J Restaurant serves Asian Oriental. Should we try that?",0110111,inform
+SSNG0067.json,Thank you for your help! That will be all. Good Bye.,I was able to book you into the J restaurant and your reference number is 87G7FWZM.,1111111,bye
+SNG01888.json,"I'm trying to find information on a particular restaurant, it is called la margherita.",,0000000,inform
+SNG01888.json,What kind of food do they serve there?,"La Margherita is in the west, cheaply priced, located at 15 Magdalene Street City Centre, and can be reached at 01223315232.",0001000,request_info
+SNG01888.json,"No, that is all I need. Thank you.",It appears they serve Italian food. Would you like me to book you a table?,0001000,bye
+PMUL0442.json,I'm looking for a restaurant that serves asian oriental food in cheap range.,,0000000,inform
+PMUL0442.json,Sure! This is exactly what I need!,I'd suggest dojo noodle bar on 40210 Millers Yard City Centre. Would you like a reservation?,1010000,inform
+PMUL0442.json,What do you mean. Would you like me to book it?,Can you give me more information about the booking the table?,1011000,other
+SNG0653.json,I'm looking for a greek restaurant that is moderately expensive.,,0000000,inform
+SNG0653.json,Please try one that serves Turkish food.,"I apologize I have no greek restaurant that is moderately expensive, or moderate or expensive is that is what you intended. Would you like another cuisine type?",1010000,inform
+SNG0653.json,Can you book a table for 5 people at 18:00 on Monday?,Meze bar restaurant is available,1010000,book
+SNG0653.json,"Yes, can I please get the reference number?",I've reserved a table for you. Anything else?,1011111,book
+SNG0653.json,"No, thanks for your help. Bye.","Of course, I'm so sorry that I didn't provide that earlier. Your reference number is BA8FS8Z5. Do you need any other assistance today?",1011111,bye
+WOZ20257.json,I want to find an expensive restaurant in the south part of town. What is the address and phone number?,,0000000,request_info
+WOZ20257.json,Any kind. I don't care. also give me the phone number and address.,I show several expensive restaurants on the south side of town. What kind of food would you like?,0110000,request_info
+WOZ20257.json,"Thank you, goodbye.",Frankie and bennys is located in the south part of town and in the expensive price range. Their address is Cambridge Leisure Park Clifton Way Cherry Hinton and their phone number is 01223 412430.,1110000,inform
+WOZ20196.json,Hi. I'm trying to find a restaurant that serves Danish food.,,0000000,inform
+WOZ20196.json,How about thai?,I'm afraid there are no Danish restaurants in the city. Is there another cuisine you'd like?,1000000,inform
+WOZ20196.json,I don't care.,There are two restaurants serving Thai food. Is the expensive price range okay for you?,1000000,inform
+WOZ20196.json,Centre please,bangkok city is a nice thai restaurant in the expensive price range. Would you like their location?,1010000,inform
+WOZ20196.json,"Yes, I will need their address and phone number.","Correct, Bangkok City is located in the centre part of town. Would you like the specific contact information?",1110000,request_info
+WOZ20196.json,thank you very much!,"The address is 24 Green Street City Centre, and the phone number is 01223 354382.",1111000,bye
+WOZ20196.json,Thank you goodbye.,You are welcome!,1111000,bye
+SNG0506.json,I am looking for the restaurant Nandos.,,0000000,inform
+SNG0506.json,"Anywhere, I would just like it to be Nandos. I would like to book a table.",Would you like the Nandos in the south or centre?,0101000,other
+SNG0506.json,"4 people, Friday, 15:45. But 14:45 is also okay. Please give me the reference number.","Sure, how many people will be dining on what day at one time?",0101000,book
+SNG0506.json,"No, I think that covers it. Thanks so much for your help!","Booking was successful for the 14:45 time. The table will be reserved for 15 minutes, reference number is: I915UV13. Do you need anything else?",0101111,bye
+WOZ20369.json,I'm looking for a restaurant that serves spanish food,,0000000,inform
+WOZ20369.json,What is the address?,"La Raza is a Spanish restaurant, it is in the cheap price range, and it is located in the centre part of town. Would you like the phone number?",1000000,request_info
+WOZ20369.json,"no, thank you",The address for La Raza is 4 - 6 Rose Crescent. Would you like their phone number?,1001000,bye
+WOZ20218.json,A cheap restaurant in the south part of town,,0000000,inform
+WOZ20218.json,"Chinese, what is the number?","We have two restaurants that meet your criteria, are you more interested in Chinese of Portuguese food?",0110000,request_info
+WOZ20218.json,What is their address?,The Lucky Star is a chinese restaurant in the south and is in the cheap price range. Their phone number is 01223 244277.,1110000,request_info
+WOZ20218.json,What is the postcode please?,Cambridge Leisure Park Clifton Way Cherry Hinton,1111000,request_info
+WOZ20218.json,Thank you very much.,"Their postcode is C.B 2, 1 U.J.",1111000,bye
+SNG1292.json,I'm looking for a particular restaurant. Its name is called rice boat.,,0000000,inform
+SNG1292.json,"No thanks, but could I get the price range and the postcode please?","Yes, Indian food! Very good. Would you like me to make a reservation?",0001000,request_info
+WOZ20283.json,Can you recommend me a moderate priced restaurant in the north part of town?,,0000000,inform
+WOZ20283.json,Can I have the address of the Chinese restaurant?,I found two restaurants in the moderate price range in the north part of town. Would you prefer Chinese or Indian food?,0110000,request_info
+WOZ20283.json,ok thank you good bye,The Golden Wok is a Chinese restaurant in the north part of town. The address is 191 Histon Road Chesterton.,1110000,inform
+WOZ20245.json,I need some Caribbean food in the south part of town.,,0000000,inform
+WOZ20245.json,Is there an italian restaurant in the south part of town?,"unfortunately, no Caribbean restaurants can be found in the south of town. can i help you with something else?",1100000,inform
+WOZ20245.json,I don't care.,There are two restaurants serving Italian food in the south of town. What price range would you like?,1100000,inform
+WOZ20245.json,"Yes, please",Pizza Hut Cherry Hinton serves Italian food on the south part of town. Would you like their phone number?,1110000,request_info
+WOZ20245.json,May I also get the postcode of the restaurant?,The phone number is 01223 323737.,1111000,request_info
+WOZ20245.json,That will be all. Thank you very much!,"The post code is C.B 1, 7 D.Y. Is there anything else I can do for you?",1111000,bye
+SSNG0125.json,I'm looking for a moderately priced restaurant to eat at in the north.,,0000000,inform
+SSNG0125.json,Chinese would be great!,I've found a Chinese restaurant and an Indian restaurant. Which one do you prefer?,0110000,inform
+SSNG0125.json,I would like a table for 8 people at 17:30 on Wednesday,"If you tell me a day and a time you would like to reserve, I can book that for you.",1110000,book
+SSNG0125.json,"Okay, that sounds good. I'll need a reference number.",Then booking was unsuccessful. Would you like me to try the Indian restaurant?,1110111,book
+SSNG0125.json,Thank you so much for your help.,"It's booked, your reference number is 5YBVERXA.",1110111,bye
+SNG0667.json,I'm looking for information about a restaurant named the golden wok.,,0000000,inform
+SNG0667.json,Could you book me a table for 5 on Saturday at 12:00?,Golden Wok is a moderately priced Chinese restaurant in the North part of Cambridge. Would you like more information?,0001000,book
+SNG0667.json,That is all thank you!,A table has been booked and will be held for 15 minutes. The reference number is 67II8018. May I help you with anything else?,0001111,bye
+WOZ20088.json,I am looking for a moderately priced restaurant in the south part of town.,,0000000,inform
+WOZ20088.json,dont care but I would like the address and phone number,What kind of food are you interested in having?,0110000,request_info
+WOZ20088.json,Which part of town it is in?,"I recommend Pizza Hut Cherry Hinton. its phone number is 01223 323737, and their address is G4 Cambridge Leisure Park Clifton Way Cherry Hinton.",1110000,inform
+WOZ20088.json,"Thank you, goodbye.",it is located in the south part of town,1111000,bye
+WOZ20348.json,I am looking for a moderately priced restaurant that serves Caribbean food.,,0000000,inform
+WOZ20348.json,Spanish food,There are no moderately priced Caribbean restaurants. Would you like something different?,1010000,inform
+WOZ20348.json,"What is the address, phone number, and post code?",La Tasca is a moderately priced restaurant that serves Spanish food.,1010000,request_info
+SNG0564.json,Know any good bites around here?,,0000000,other
+SNG0564.json,"I would like to dine in the south, preferably Chinese and expensive.","I have a wide range of places I can recommend. First, why don't I ask if there is an area in the city that you prefer to dine in?",0000000,inform
+SNG0564.json,Can I just get the address for the Peking Restaurant?,"We have two in that area. There is ""peking restaurant"" and ""the good luck chinese food takeaway"". Would you like to book a table at one of these options?",1110000,request_info
+SNG0564.json,"Nope, that'll do it. I'm going to go eat! Thanks for your help!","Absolutely - the Peking Restaurant is located at 10 Homerton Street City Centre, cb28nx. Can I help with anything else today?",1110000,inform
+WOZ20113.json,Hello! I'm looking for a nice restaurant that serves Scottish food. Can you recommend one?,,0000000,inform
+WOZ20113.json,"No, any part of town is good.",Certainly. Is there a certain area of town that you'd like to stay in?,1000000,inform
+WOZ20113.json,How about a restaurant that serves British food?,"I'm sorry, there aren't any Scottish food restaurants. Would you like something else?",1100000,inform
+WOZ20113.json,May I get the restaurant phone number please?,The Cotto serves British food it is in the centre of town in the moderate price range.,1100000,request_info
+WOZ20113.json,"Thank you, goodbye",cotto's phone number is 01223 302010.,1101000,bye
+SSNG0112.json,I am looking for a place to eat in town centre.,,0000000,inform
+SSNG0112.json,It doesn't matter as long as it is cheap.,There are 69 different places to choose from. What type of food would you like?,0100000,inform
+SSNG0112.json,I don't care about the cuisine. Would you book a table for 4 people at 16:00 on Wednesday?,I have 15 restaurants that match your description? Is there a specific cuisine you would like?,1110000,book
+SSNG0112.json,That will be all. Thank you very much for your help.,I made a reservation for you at J Restaurant at 86 Regent Street. Reference Number UWVRJC3M. Can I help you further today?,1110111,book
+WOZ20520.json,I need a cheap restuarant. Probably in the west part of town,,0000000,inform
+WOZ20520.json,What kind of food do they serve?,How about La Margherita?,0110000,request_info
+WOZ20520.json,That sounds good. What is their phone number?,la margherita is an italian restaurant in the area of west in the cheap price range.,0111000,request_info
+WOZ20520.json,that was all I needed. Bye now.,Their phone number is 01223 315232.,0111000,bye
+WOZ20458.json,I would like a restaurant in the east part of town that serves gastropub food,,0000000,inform
+WOZ20458.json,Thank you goodbye.,That would be the Royal Standard at 280 Mill Road City Centre. They can be reached at 01223247877.,1100000,bye

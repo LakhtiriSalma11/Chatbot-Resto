@@ -1,0 +1,13 @@
+scenario,variante,succes,tours_utilisateur,detail
+S1,1,1,2,"réservé kohinoor (4 pers., friday 19:00)"
+S1,2,1,3,"réservé kohinoor (4 pers., friday 19:00)"
+S2,1,1,2,adresse+téléphone d'un italien du nord donnés
+S2,2,1,3,adresse+téléphone d'un italien du nord donnés
+S3,1,1,3,"réservé graffiti (2 pers., saturday 20:00)"
+S3,2,1,2,"réservé fitzbillies restaurant (2 pers., saturday 20:00)"
+S4,1,1,3,réservation ask restaurant
+S4,2,1,3,réservation charlie chan
+S5,1,1,2,"réservé charlie chan (6 pers., thursday 18:00)"
+S5,2,1,2,"réservé charlie chan (6 pers., thursday 18:00)"
+S6,1,1,4,"réservé meghna (2 pers., monday 13:00)"
+S6,2,1,4,"réservé meghna (2 pers., monday 13:00)"

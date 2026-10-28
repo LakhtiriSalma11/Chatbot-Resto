@@ -1,0 +1,69 @@
+{
+ "state_tracking": {
+  "turns": 641,
+  "joint_goal_accuracy": 0.7894,
+  "slot_micro": {
+   "precision": 0.943,
+   "recall": 0.949,
+   "f1": 0.946
+  },
+  "per_slot": {
+   "food": {
+    "precision": 0.945,
+    "recall": 0.951,
+    "f1": 0.948
+   },
+   "area": {
+    "precision": 0.937,
+    "recall": 0.925,
+    "f1": 0.931
+   },
+   "pricerange": {
+    "precision": 0.934,
+    "recall": 0.932,
+    "f1": 0.933
+   },
+   "bookpeople": {
+    "precision": 0.954,
+    "recall": 1.0,
+    "f1": 0.976
+   },
+   "bookday": {
+    "precision": 0.967,
+    "recall": 1.0,
+    "f1": 0.983
+   },
+   "booktime": {
+    "precision": 0.94,
+    "recall": 0.966,
+    "f1": 0.952
+   }
+  }
+ },
+ "simulation": {
+  "hybride (ML + r\u00e8gles)": {
+   "n": 300,
+   "success_rate": 1.0,
+   "avg_turns_when_booked": 3.57,
+   "by_style": {
+    "accept_all": "75/75",
+    "accept_bare": "70/70",
+    "info_first": "80/80",
+    "other_first": "75/75"
+   },
+   "failures": {}
+  },
+  "r\u00e8gles seules": {
+   "n": 300,
+   "success_rate": 1.0,
+   "avg_turns_when_booked": 3.57,
+   "by_style": {
+    "accept_all": "75/75",
+    "accept_bare": "70/70",
+    "info_first": "80/80",
+    "other_first": "75/75"
+   },
+   "failures": {}
+  }
+ }
+}

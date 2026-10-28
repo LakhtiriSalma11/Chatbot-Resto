@@ -1,0 +1,37 @@
+{
+ "n_dialogues": 1387,
+ "dialogues_per_split": {
+  "train": 1109,
+  "val": 138,
+  "test": 140
+ },
+ "user_turns_per_split": {
+  "train": 4823,
+  "val": 593,
+  "test": 641
+ },
+ "intent_distribution": {
+  "train": {
+   "inform": 1967,
+   "book": 798,
+   "bye": 1045,
+   "request_info": 802,
+   "other": 211
+  },
+  "val": {
+   "inform": 236,
+   "book": 89,
+   "bye": 130,
+   "request_info": 106,
+   "other": 32
+  },
+  "test": {
+   "inform": 272,
+   "book": 88,
+   "bye": 149,
+   "other": 28,
+   "request_info": 104
+  }
+ },
+ "avg_turns_per_dialogue": 8.7
+}

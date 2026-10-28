@@ -1,0 +1,58 @@
+utterance,context,true,pred
+"No, I really need a restaurant in the south that serves international food.","Unfortunately, I was unable to find a restaurant in the south that serves international cuisine. Is there another type of cuisine that would interest you?",other,inform
+I do not. Is there one you can recommend?,We have 14 indian restaurants in the expensive category. Do you have any more information to narrow down the search?,other,inform
+"No, not yet, I just wanted the info. Thanks.",I would recommend the Maharajah Tandoori Restaurant. It's in the west end. The address is 41518 Castle Street City Centre. The postcode is cb30ah. Shall I make a booking?,bye,request_info
+Yes please make me a reservation.,"The golden house is located at 12 Lensfield Road City Centre, postcode cb21eg, and the phone number is 01842753771. Would you like me to make a reservation for you?",inform,other
+"Actually, I don't need a reservation right now. The restaurant information was all I needed. Thanks for your help.","Certainly. How many people are dining, and what day and time would you like?",other,bye
+Can you please get me a reservation at Ali Baba for tonight at 7PM?,Yes! Ali Baba is a great Lebanese restaurant that would suit your needs. It's located at 59 Hills Road City Centre. What other information do you need?,inform,book
+Yes I need a table for 4 on Saturday.,The yippee noodle bar is an asian oriental restraunt in the town centre with a moderate price. Would you like to make a booking?,inform,book
+Let's try Italian instead.,I'm sorry I am having difficulty making a reservation for you. Shall we try another time or restaurant type?,inform,book
+"Actually, I change my mind. I think I want to stick with British food after all. Can you suggest any one thats in the centre of town?","Caffe Uno is a very nice, expensive Italian restaurant in the center of town. Would you like a table there?",inform,book
+No thank you that will be all.,I'm sorry that isn't available. Can I try a different restaurant for you?,bye,book
+I was really hoping for Sri Lankan.,I'm sorry but I have nothing listed. Is there another type of food you might be interested in?,other,inform
+Are they all listed as expensive?,I found three located in the centre and one on the east. Which would you prefer?,other,inform
+West part of town,There are 15 results for Italian food. Do you have an area of town or price range in mind?,other,inform
+"No, that will be all. Thanks!","It's pretty expensive. It's at Free School Lane City Centre, and you can call them at 01223 368786. Anything else I can help you with?",inform,bye
+"No particular area, but I'm looking for an expensive restaurant.",There are five search results. Are you interested in a particular area or price range?,request_info,inform
+I am looking for a cheap restaurant.,"there are two spanish restaurants in total, what price range do you want?",other,inform
+"I need something else in the West, moderate priced.","Sorry, but there is not space for 5 people. Can I search a restaurant in the north?",book,inform
+Does this restaurant serve fusion food?,Sure. There is a Chinese Restaurant and a Portuguese Restaurant. Would you like me to book one for you?,other,inform
+That's disappointing. Can you tell me about the Chinese restaurant?,"No, I'm sorry. Either Chinese or Portuguese.",other,inform
+"Yes, that would be fine, thanks.",It isn't available. Shall I try the Portuguese restaurant?,bye,book
+Thank you for you help. That is all I need.,Your table will be waiting for you. Your reference number is 6U8PG73H.,bye,book
+cheap price range,There are three restaurants that serve Chinese food in the south part of town. What price range would you like?,request_info,inform
+"No, thank you. That is all for today.",I was able to get you a table for 3 on Sunday at 10:15 at the Shanghai Family Restaurant. Your reference number is SFWTQUB7. Is there anything else?,bye,book
+Pardon? Is that the name of a restaurant?,name is tnahh binh,inform,request_info
+I just want to go to one you think is best please,There are several in the West area. What is your address and I can find one that is closest to you? Do you want to walk?,other,inform
+Yes alright then.,I'm sorry bu there are no other restaurants on the east side of town that are listed as cheap. Can we try another part of town?,book,inform
+I really needed it to be at that time. Thank you for your help.,The Missing Sock is the only cheap restaurant in the east. Can you perhaps do another time?,inform,book
+Price range doesn't matter. Which restaurant out of the 9 do you recommend?,There are 9 restaurants that fit that description. Are you looking for a cheap or expensive restaurant?,other,inform
+Ok lets try there.,How about the ghandi?,bye,book
+"No, you were great. Enjoy the rest of your day.","They're at 51 Trumpington Street City Centre, and their phone number is 01223352500. Is there anything else I can help you with?",bye,other
+"Yes, I'm looking for the address of one in the east part of town.","there are 17 chinese restaurants, do you prefer any price range or any area in town?",request_info,inform
+sorry what is the food type of that restaurant?,Nandos is a cheap Portuguese restaurant in the south. Would you like their information?,inform,request_info
+what is the food type of that restaurant?,"How about Sitar Tandoori, It's address is 43 High Street Cherry Hinton Cherry Hinton, their postcode is C.B 1, 9 H.X, and their phone number is 01223 249955.",inform,request_info
+Nandos sounds great. Thank you.,nandos is the only restaurant i can find in the south that serves portuguese.,bye,inform
+Thank you so much.,Reservation booked with The Curry Garden for Sunday at 11:30am for 8 people. Your reservation will be held for 15 minutes. Reference number is 6GRFMVDJ.,book,bye
+"Im up north, whats the address for a mediterranean place around here?",,request_info,inform
+That sounds good. Thank you.,"La mimosa serves Mediterranean food. Their phone number is 01223 362525, their address is Thompsons Lane Fen Ditton and their postcode is C.B 5, 8 A.Q.",bye,inform
+Can you find me something along the same price and in the same area please?,I was unable to find a table at that time. Would you like to find another restaurant?,inform,book
+"Any in the same area, and price range please.","There are no other Spanish places in that area, another area or type perhaps?",inform,book
+Can you give me the price for a large pizza and what type of pizzas they offer at Pizza Express fen ditton please,,request_info,inform
+Great! Thank you!,"The phone number for Ask is 01223 364917, and they are located at 12 Bridge Street City Centre.",inform,bye
+Yes please.,Little Seoul is an expensive restaurant in the Centre area. Would you like the address?,request_info,other
+Yes please. Could I have it?,Alright you're all booked. Would you like the reference number?,book,bye
+"That's perfect, thank you!","May I recommend yippee noodle bar, located at 40428 King street in the centre of town?",bye,inform
+I prefer the expensive price range.,There are 3 restaurants that serve mediterranean food. What price range are you looking for?,other,inform
+Can you tell me what area of town it is located?,la tasca would fit the bill. its phone number is 01223 464630.,request_info,other
+That sounds good. Please give me more information.,"As far as cheaper restaurants, I only have one available that's located in the east. It's called the Missing Sock and serves international food. Would you like more information?",other,inform
+Area doesn't matter. Can you pick one to recommend?,What area would you like to dine in?,other,inform
+Thank you for your help.,I am sorry I am not able to book that for you. I was able to get a table for you at michaelhouse cafe. Your reference number is VUH4CST4.,book,bye
+Is there any place that serves international food?,I have the oak bistro they serve british food.,inform,other
+"Yes, and I need one of their names please.",There are several chinese restaurants. Would you like their phone number?,other,book
+"Hello, could you please find me a place to dine?",,other,inform
+Thank you. Goodbye.,pizza hut cherry hinton is at G4 Cambridge Leisure Park Clifton Way Cherry Hinton and phone number is 01223 323737.,inform,bye
+I want to find a moderately priced restaurant in the west part of town. What is the address?,,request_info,inform
+"Nope, that would be it. Thanks for all the help, have a nice day!",Booking was successful. The table will be reserved for 15 minutes. Reference number is: K3EBX9QT. The booking is at the Golden Curry. Need anything else?,book,bye
+Something in the same area and price range would work.,"The address is 451 Newmarket Road Fen Ditton. Unfortunately, the restaurant is fully booked. Do you have another restaurant or type of food in mind?",book,inform
+Can you help me find a restaurant please?,,other,inform

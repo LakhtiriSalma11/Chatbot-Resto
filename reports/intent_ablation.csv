@@ -1,0 +1,5 @@
+backend,contexte,val_macro_f1,test_accuracy,test_macro_f1
+tfidf,non,0.7912,0.8924,0.7982
+tfidf,oui,0.8322,0.9158,0.8432
+spacy,non,0.8203,0.8955,0.8095
+spacy,oui,0.8404,0.9111,0.839
