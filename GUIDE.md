@@ -84,15 +84,5 @@ Toi : for 4 people  /  on friday  /  7:30 pm
 Bot : Your booking is confirmed: Charlie Chan, 4 people, Friday at 19:30. Reference number: ...
 ```
 
-## Points à expliquer à l'oral
-- **Pourquoi hybride ?** Le ML reconnaît l'intention malgré la variété des phrases ; les règles garantissent un comportement
-  fiable (pas d'hallucination, réservation toujours complète). Exemple concret trouvé pendant les tests : le ML prenait
-  « ok sounds good » pour un au revoir ; une règle corrige.
-- **Pourquoi le contexte ?** Le même « yes please » n'a pas le même sens après une proposition ou après une question de réservation
-  (ablation : +1,6 à +2,3 pts d'accuracy avec le contexte, TF-IDF comme RoBERTa).
-- **Contextuel vs TF-IDF ?** Résultat honnête : accuracy équivalente (0,911 vs 0,916). Le gain principal vient du contexte du dialogue ; les embeddings contextuels aident un peu sur la phrase seule (macro-F1 +1,1 pt).
-- **Limites** : voir `README.md` (étiquettes automatiques, évaluation humaine à faire, bot en anglais).
 
-## Pistes d'amélioration
-Comparer SBERT à RoBERTa ; ajouter un modèle Seq2Seq (T5-small) pour générer les réponses et le comparer aux templates ;
-traduire le NLU en français ; gérer les négations (« not expensive »).
+
