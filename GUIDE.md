@@ -65,7 +65,7 @@ message ─► NLU (règles) ──► cuisine, zone, prix, personnes, jour, heu
 - **Scénarios** : `python -m eval.run_scenarios` (S1–S6, 2 formulations chacun) → `reports/scenario_transcripts.md`.
 - **Humaine** : suis `eval/human_eval.md` (6 scénarios, notes 1–5 sur fluidité / cohérence / efficacité). Les testeurs notent dans
   l'app (encadré « 📝 Évaluation humaine ») → `reports/human_eval_results.csv`, puis `python -m eval.analyze_human_eval`.
-- **Rapport** : `reports/rapport_evaluation.md` (tout est rempli sauf §4.3, à compléter avec tes testeurs).
+
 
 ## Étape 6 — Démonstration
 - **Web** : `streamlit run app_streamlit.py`. La barre latérale montre l'état du dialogue (slots), l'intention détectée avec sa
