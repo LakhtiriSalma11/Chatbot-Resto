@@ -61,5 +61,4 @@ Voir **GUIDE.md** (explications étape par étape) et **reports/rapport_evaluati
 - Étiquettes d'intention dérivées automatiquement des annotations → imparfaites, surtout la classe `other` (rappel 36 %).
 - NLU à règles : pas de négation (« not expensive »), pas de fautes de frappe, anglais uniquement.
 - Les 100 % en simulation viennent d'un simulateur écrit avec le NLU : ce n'est pas une garantie sur de vrais utilisateurs.
-- Embeddings contextuels (RoBERTa) ≈ TF-IDF en accuracy (0,911 vs 0,916) : le gain vient surtout du **contexte du dialogue**, pas de l'encodeur. SBERT : code fourni, non testé.
-- **L'évaluation humaine reste à faire** : les testeurs notent dans l'encadré « 📝 Évaluation humaine » de l'app (voir `eval/human_eval.md`) ; seule une relecture IA des scénarios est fournie (rapport §4.2). Les réservations sont simulées (référence générée localement).
+- Embeddings contextuels (RoBERTa) ≈ TF-IDF en accuracy (0,911 vs 0,916) : le gain vient surtout du **contexte du dialogue**, pas de l'encodeur.
