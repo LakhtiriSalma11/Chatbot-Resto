@@ -57,7 +57,7 @@ reports/                résultats générés (JSON, CSV, matrice de confusion)
 
 Voir **GUIDE.md** (explications étape par étape) et **reports/rapport_evaluation.md** (chiffres + limites).
 
-## Limites (à connaître avant de présenter)
+## Limites 
 - Étiquettes d'intention dérivées automatiquement des annotations → imparfaites, surtout la classe `other` (rappel 36 %).
 - NLU à règles : pas de négation (« not expensive »), pas de fautes de frappe, anglais uniquement.
 - Les 100 % en simulation viennent d'un simulateur écrit avec le NLU : ce n'est pas une garantie sur de vrais utilisateurs.
